@@ -1,0 +1,202 @@
+Act as a senior frontend developer and UI/UX expert.
+
+Create a complete navigation system and dynamic page structure for a tech support website named "Tech Cyber Hub".
+
+IMPORTANT:
+
+* Use HTML, CSS, JavaScript (or React if needed)
+* Do NOT use WordPress
+* Keep code modular and scalable
+
+---
+
+🎯 GOAL:
+
+1. Create a responsive mega menu with dropdown and subcategories
+2. Create separate pages for EACH sub-service
+3. Ensure SEO-friendly structure and routing
+
+---
+
+🧭 MAIN MENU:
+
+* Home
+* Services (Mega Dropdown)
+* About
+* Blog
+* Contact
+
+---
+
+📂 SERVICES STRUCTURE:
+
+Create categories and sub-services:
+
+Popular Services:
+
+* Computer Repair
+* Virus Removal
+* WiFi Setup
+* Printer Setup
+* Smart Home Setup
+
+Computers & Printers:
+
+* Computer Repair
+* PC Setup & Installation
+* Mac Support
+* Virus Removal
+* Slow PC Fix
+* Software Installation
+* Printer Setup
+* Email Support
+* Data Recovery
+
+Smart Home:
+
+* Smart Home Setup
+* Smart Lights Installation
+* Smart Thermostat Setup
+* Smart Doorbell Setup
+* Smart Lock Installation
+* Smart Camera Setup
+* Alexa Setup
+* Google Home Setup
+
+Audio & Video:
+
+* TV Mounting
+* Smart TV Setup
+* Streaming Device Setup
+* Home Theater Setup
+* Sound System Setup
+
+Mobile Devices:
+
+* iPhone Setup
+* Android Setup
+* Tablet Setup
+* App Installation
+* Data Transfer
+
+WiFi & Network:
+
+* WiFi Setup
+* Router Setup
+* Internet Troubleshooting
+* Network Setup
+* Mesh WiFi Installation
+
+Home Security:
+
+* Security Camera Setup
+* Smart Doorbell Setup
+* Alarm System Setup
+* Smart Lock Installation
+
+TV Mounting:
+
+* TV Mounting Service
+* Wall Mount Installation
+
+Around the Home:
+
+* General Tech Help
+* Device Setup
+* Troubleshooting Support
+
+---
+
+💻 DESKTOP MENU:
+
+* Hover on "Services" opens mega menu
+* Multi-column layout
+* Each category with heading + links
+* Smooth animation
+
+---
+
+📱 MOBILE MENU:
+
+* Hamburger menu
+* Expandable categories
+* Accordion style for sub-services
+
+---
+
+📄 CREATE SEPARATE PAGES FOR EACH SUB-SERVICE:
+
+For EACH sub-service:
+
+* Create a unique page/route
+* Example URLs:
+  /computer-repair-usa
+  /virus-removal-service
+  /wifi-setup-support
+  /printer-setup-service
+
+---
+
+🧩 SERVICE PAGE TEMPLATE (REUSABLE):
+
+Each page must include:
+
+* H1 title (Service Name)
+* Intro section
+* Common problems
+* What we fix
+* Why choose us
+* How it works (3 steps)
+* CTA buttons (Call Now / Get Support)
+* FAQ accordion
+
+---
+
+🔗 LINKING:
+
+* All menu items must link to their respective pages
+* Add internal links between related services
+
+---
+
+🔍 SEO:
+
+* Use clean URLs
+* Add meta title and description
+* Use semantic HTML (H1, H2)
+* Add FAQ schema (JSON-LD)
+
+---
+
+🎨 UI:
+
+* Modern SaaS style
+* Clean layout
+* Hover effects
+* Smooth transitions
+
+---
+
+⚡ TECH:
+
+* Use reusable components
+* Store services in JSON or JS object
+* Dynamically generate pages if possible
+
+---
+
+📦 OUTPUT:
+
+* Full working code:
+
+  * Navigation (mega menu)
+  * All service pages (or dynamic system)
+* HTML + CSS + JS (or React)
+* Mobile + desktop optimized
+* Clean and structured
+
+---
+
+FINAL GOAL:
+
+Create a fully functional website navigation with dropdown, subcategories, and separate SEO-friendly pages for each service like HelloTech.

@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Tech Cyber Hub"
+version = "1.0.0"
+id = "artifacts/tech-cyber-hub"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25133
+
+[services.development]
+run = "pnpm --filter @workspace/tech-cyber-hub run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/tech-cyber-hub", "run", "build" ]
+publicDir = "artifacts/tech-cyber-hub/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25133"
+BASE_PATH = "/"
